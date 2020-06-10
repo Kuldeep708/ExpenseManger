@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/profile"
+        android:title="DASHBOARD"
+        android:icon="@drawable/profile"
+        app:showAsAction="always"
+        />
+    <item android:id="@+id/income"
+        android:title="INCOME"
+        android:icon="@drawable/income"
+      app:showAsAction="always"
+         />
+    <item android:id="@+id/expense"
+        android:title="EXPENSES"
+        android:icon="@drawable/expense"
+        app:showAsAction="always"
+        />
+</menu>
